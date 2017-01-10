@@ -8,18 +8,28 @@
             "type": "node",
             "request": "launch",
             "name": "プログラムの起動",
-            "program": "${workspaceRoot}\\index.js",
-            "cwd": "${workspaceRoot}",
-            "outFiles": [],
-            "sourceMaps": true
+            "program": "${workspaceRoot}/bin/main.js",
+            "cwd": "${workspaceRoot}\\node_modules\\.bin\\",
+            "windows": {
+    			"runtimeExecutable": "${workspaceRoot}\\node_modules\\.bin\\electron.cmd"
+            },
+			//"runtimeArgs": ["program"],
+            "preLaunchTask": "default",
+			"env": {
+				"NODE_ENV": "development"
+			},
+			"console": "internalConsole",
+			"sourceMaps": true,
+			"outFiles": [
+                "${workspaceRoot}/bin/**/*.js"
+            ],
+            "stopOnEntry": false
         },
         {
             "type": "node",
             "request": "attach",
             "name": "プロセスに添付",
-            "port": 5858,
-            "outFiles": [],
-            "sourceMaps": true
+            "port": 5858
         }
     ]
 }

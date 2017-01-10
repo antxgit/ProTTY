@@ -1,0 +1,7 @@
+"use strict";
+var greeting_1 = require("./greeting");
+var greeting = new greeting_1.default();
+greeting.hello();
+greeting.hello();
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9zcmMvYXBwL2luZGV4LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSx1Q0FBa0M7QUFFbEMsSUFBTSxRQUFRLEdBQUcsSUFBSSxrQkFBUSxFQUFFLENBQUM7QUFFaEMsUUFBUSxDQUFDLEtBQUssRUFBRSxDQUFDO0FBQ2pCLFFBQVEsQ0FBQyxLQUFLLEVBQUUsQ0FBQyIsImZpbGUiOiJpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBHcmVldGluZyBmcm9tICcuL2dyZWV0aW5nJztcclxuXHJcbmNvbnN0IGdyZWV0aW5nID0gbmV3IEdyZWV0aW5nKCk7XHJcblxyXG5ncmVldGluZy5oZWxsbygpO1xyXG5ncmVldGluZy5oZWxsbygpO1xyXG4iXX0=
